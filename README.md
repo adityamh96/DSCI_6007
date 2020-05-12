@@ -51,7 +51,7 @@ Our next step will be to implement the algorithm on our large training data and 
 2.	After adding our user ratings, we applied the model to our user id and tried to see the recommendations given by our model.
 3.	The outcome was pretty good and some of the recommendations given by our model seemed to be of interest.
 
-## Conclusion – The conclusion one can draw from the analysis are:
+## Conclusion –
 1.	Collaborative filtering is the go-to approach when it comes to recommendation engines as it takes into account several critical factors like implicit feedback which is a real-world scenario. 
 2.	ALS algorithm helped us achieve pretty good accuracy with our predictions and can certainly be considered as a good option for movie recommendations. 
 3.	Building an accurate recommendation system should certainly be of utmost importance for any organization, as better recommendations result in better user experience
