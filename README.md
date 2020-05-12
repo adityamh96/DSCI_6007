@@ -36,7 +36,7 @@ Our next step will be to implement the algorithm on our large training data and 
 6.	ALS tries to fill in the blank spaces in the sparse matrix by taking values from similar users and predicting the ratings for a user who has not watched a particular movie. This same approach is then implemented for all the users.
 7.	The movies with highest predicted ratings are then considered as recommendation to users. 
 
-## Algorithm Implementation:
+## Algorithm Implementation
 1.	First step towards implementing the model will be to load the libraries. Some of the libraries we will need as part of implementation are the regressor evaluator which will help us measure the performance of our ALS model and import the ALS model itself.
 2.	Since our data has been splitted we can proceed towards model creation. 
 3.	While creating our ALS model we can fine tune our hyperparameters by specifying the number of max iterations we want the model to have, set our regparam value and provide the user column (userCol), item column (itemCol) and the rating column (ratingCol).
@@ -46,12 +46,12 @@ Our next step will be to implement the algorithm on our large training data and 
 7.	Looking at the predictions given by the model we can see that we are not far off from the actual predictions. 
 8.	It is safe to assume that the model can provide pretty accurate recommendations to the users based on their preferences.
 
-## Adding Self rated data to the dataset – 
+## Adding Self rated data to the dataset 
 1.	As part of our next approach we were supposed to create dataset containing ratings for movies that we have watched and adding it to the dataset.
 2.	After adding our user ratings, we applied the model to our user id and tried to see the recommendations given by our model.
 3.	The outcome was pretty good and some of the recommendations given by our model seemed to be of interest.
 
-## Conclusion –
+## Conclusion 
 1.	Collaborative filtering is the go-to approach when it comes to recommendation engines as it takes into account several critical factors like implicit feedback which is a real-world scenario. 
 2.	ALS algorithm helped us achieve pretty good accuracy with our predictions and can certainly be considered as a good option for movie recommendations. 
 3.	Building an accurate recommendation system should certainly be of utmost importance for any organization, as better recommendations result in better user experience
