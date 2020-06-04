@@ -1,4 +1,4 @@
-# DSCI_6007
+# Netflix movie recommendation
 ## Statement of objective 
 Aim of the project is to use algorithms that help recommend users with similar movie preferences, movies that users might like and maybe haven’t come across yet. The applications for these kinds of algorithms can be seen across variety of industries. These algorithms help drive some key decisions like which movie user is likely to watch next or in case of ecommerce industry it helps the company predict what products a user is likely to buy next. We will be analyzing the collaborative filtering algorithm which is used in most of the recommendation engines that helps drive these decisions.
 
